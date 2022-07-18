@@ -13,7 +13,7 @@ def twttr():
 
         for j in range(len(vowels)):
             
-            if user_txt[i] != vowels[j]: 
+            if user_txt[i].lower() != vowels[j]: 
                 count += 1
 
         if count == len(vowels):
