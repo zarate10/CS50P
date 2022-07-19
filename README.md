@@ -7,36 +7,9 @@ _I solved the exercises using algorithms based on computer science fundamentals 
 
 
 ```mermaid
-graph LR
-PROBLEM-SET-1 --> FUNCTIONS --> PROBLEM-SET-2 --> CONDITIONALS
+graph TD
+    A{CS50P}
+    A -->|PROBLEM SET 1| FUNCTIONS -->|PROBLEM SET 4| LIBRERIES -->|PROBLEM SET 7| EXPRESSIONS
+    A -->|PROBLEM SET 2| CONDITIONALS -->|PROBLEM SET 5| UNIT-TESTS -->|PROBLEM SET 8| O.O.P
+    A -->|PROBLEM SET 3| EXCEPTIONS -->|PROBLEM SET 6| FILE-I/O -->|PROBLEM SET 9| ETCETERA
 ```
-### PROBLEM SET 0
-- Functions
-
-### PROBLEM SET 1
-- Conditionals
-
-### PROBLEM SET 2
-- Loops
-
-### PROBLEM SET 3
-- Exceptions
-
-### PROBLEM SET 4
-- Libraries
-
-### PROBLEM SET 5
-- Unit Tests
-
-### PROBLEM SET 6
-- File I/O
-
-### PROBLEM SET 7
-- Regular Expressions
-
-### PROBLEM SET 8
-- Object Oriented Programming
-
-### PROBLEM SET 9
-- Etcetera
-
