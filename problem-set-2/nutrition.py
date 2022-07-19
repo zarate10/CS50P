@@ -26,7 +26,7 @@ def nutrition():
  
     fruit = input("Fruit: ").lower()
 
-    if fruit not in fruits:
+    if fruit in fruits:
         print(f'Calories: {fruits[fruit]}')
 
 nutrition()
